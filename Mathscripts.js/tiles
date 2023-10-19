@@ -1,0 +1,18 @@
+let roomX = 13;
+let roomY = 15;
+
+// Calculate the area of the room
+let areaOfroom = roomX * roomY;
+
+// Considering a 10% extra tiles
+let tiles = areaOfroom + (0.1 * areaOfroom);
+
+let numberOfTilesInBox = 12;
+
+// Calculate the number of boxes
+let numberOfBoxes = tiles / numberOfTilesInBox;
+
+// Round up to ensure you have enough boxes
+numberOfBoxes = Math.ceil(numberOfBoxes);
+
+console.log(numberOfBoxes);
