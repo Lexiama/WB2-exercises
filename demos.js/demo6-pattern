@@ -1,4 +1,10 @@
 
+"use strict "
+
+var savingsAmount = 12000;
+var interestRate = .8;
+
+var howManyYearsToDouble = 72/ 
 
 
 
@@ -6,5 +12,12 @@
 
 
 
+let newMessage = 'At intrest rate of ${intresrestRatePrecentage}%, your value would doub;e in ${howManyYearsToDouble} years!'
 
-let newmessage = 'At intrest rate of ${intresrestRatePrecentage}%, your value would doub;e in ${howManyYearsToDouble} years!'
+//or instead of let 
+
+or // 
+
+use console.log ( newMessage)
+
+or   
