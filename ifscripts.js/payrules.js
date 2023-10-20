@@ -13,7 +13,7 @@ var hoursWorked = 40;
 
 if (hoursWorked <= 40) { 
     //no overtime.
-    grossPay = payRateayRate * hoursWorked;
+    grossPay = payRate * hoursWorked;
 
 }
 

@@ -1,0 +1,10 @@
+
+
+
+
+
+
+
+
+
+let newmessage = 'At intrest rate of ${intresrestRatePrecentage}%, your value would doub;e in ${howManyYearsToDouble} years!'
