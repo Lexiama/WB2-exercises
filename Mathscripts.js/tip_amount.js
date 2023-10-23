@@ -1,8 +1,11 @@
 "use strict"
-var annualRateOfReturn = 6;
-var yearsTodouble= 72/annualRateOfReturn;
-var initialInvestment = 1000;
 
-doubledInvestment = initialInvestment *2
 
-console.log ("At a" + annualRateOfReturn + "intrest rate your saving account will be worth" + doubledInvestment + "in" + "years")
+
+let Bill = 1000;
+let tip = 20.00;
+
+let tipAmount = Bill + tip
+
+
+console.log("The tip on $" + Bill + " food bill is $" + tipAmount)
