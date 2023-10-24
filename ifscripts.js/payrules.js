@@ -7,8 +7,9 @@
 
 //if hours are underhours
 
-var payRate = 12.50;
-var hoursWorked = 40; 
+let payRate = 12.50;
+let hoursWorked = 20; 
+let grosspay;
 
 
 if (hoursWorked <= 40) { 
@@ -17,14 +18,8 @@ if (hoursWorked <= 40) {
 
 }
 
-else { 
-    // overtime 
-    var basePay = 40 * payRate;
-    var overTimeHours = hoursWorked - 40;
-    var overtimeRate = 1.5 * payRate; 
-
-    var overTimePay = overTimeHours * overtimeRate 
-
-    grossPay = basePay + overTimePay; 
-
+else if (hoursWorked > 40){
+    //overtime
+    let overTime= hoursWorked -40;
+    grossPay = (overTime * (payRate * 1.5)) + (payRate * (hoursWorked-overTime))
 }
