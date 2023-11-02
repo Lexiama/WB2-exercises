@@ -1,6 +1,5 @@
 "use strict";
 
-
 window.onload = init;
 
 function init() { 
@@ -18,3 +17,5 @@ function greetTheUserBtnClicked () {
     alert(message); 
     
 }
+
+

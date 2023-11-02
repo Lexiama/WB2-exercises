@@ -1,6 +1,4 @@
 "use strict"
-var Length;
-var Width;
 
 var Length = 10;
 
